@@ -42,6 +42,23 @@ header {
     padding: 1px;
 }
 
+article img {
+    width: 270px;
+    height: 180px;
+}
+
+main {
+    display: grid;
+}
+
+div {
+    display: flex;
+}
+
+article {
+    width: 260px;
+}
+
 p {
     font-family: 'Bebas Neue', cursive;
 }
