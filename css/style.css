@@ -3,15 +3,14 @@
 * {box-sizing: border-box;}
 html {font-size: 62.5%;}
 body {
-        font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	font-size: 1.8rem;
 	line-height: 2;
 	margin: 0;
 	color: #000000;
-	background-image: url(../img/fond.svg);
-	background-attachment: fixed;
 }
-h1, h2, h3 {font-family: 'Luckiest Guy', cursive;}
+h1 {font-family: 'Lobster', cursive;}
+h2 {font-family: 'Orelega One', cursive;}
 a {text-decoration: none;}
 img {max-width: 100%;}
 .container {
@@ -36,4 +35,13 @@ ul {
 header {
     background-image: url(../img/motivation.png);
     background-repeat: no-repeat;
+    background-position: 580px;
+    background-size: 80px;
+    text-align: center;
+    margin-left: 5px;
+    padding: 1px;
+}
+
+p {
+    font-family: 'Bebas Neue', cursive;
 }
