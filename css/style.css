@@ -3,8 +3,6 @@
 * {box-sizing: border-box;}
 html {font-size: 62.5%;}
 body {
-    display: grid;
-    grid-template-areas: "header header header header aside article article article footer footer footer footer";
     font-family: 'Open Sans', sans-serif;
 	font-size: 1.8rem;
 	line-height: 2;
@@ -35,7 +33,6 @@ ul {
 /**GLOBAL**/
 
 header {
-    grid-area: header;
     background-image: url(../img/motivation.png);
     background-repeat: no-repeat;
     background-position: 580px;
@@ -54,20 +51,11 @@ div {
     display: flex;
 }
 
-aside {
-    grid-area: aside;
-}
-
 article {
-    grid-area: article;
     width: 260px;
     margin-right: 20px;
 }
 
 p {
     font-family: 'Bebas Neue', cursive;
-}
-
-footer {
-    grid-area: footer;
 }
